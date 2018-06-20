@@ -12,6 +12,11 @@
     -webkit-sizing: border-box;
 }
 
+body {
+    font-size: 16px;
+    color: #000;
+}
+
 h3, p {
     margin-top:0;
 }
@@ -27,12 +32,6 @@ p:last-child {
 
 .emphasize{
     font-style: italic;
-}
-
-body {
-    font-size: 16px;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    color: #000;
 }
 
 /* ======================
