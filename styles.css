@@ -1,1 +1,81 @@
 /* add your CSS here */
+/* ======================
+
+      GENERAL STYLES
+        
+========================*/
+
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-sizing: border-box;
+}
+
+h3, p {
+    margin-top:0;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+p:last-child {
+    margin-bottom:0;
+}
+
+body {
+    font-size: 16px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    color: #000;
+}
+
+/* ======================
+
+      CARD STYLES
+        
+========================*/
+
+
+.card {
+    max-width: 450px;
+    width:100%;
+    padding: 20px;
+    border: 1px solid #bbb;
+    margin: 40px auto 50px;
+    box-shadow: 5px 5px 2px #eee;
+    transition: box-shadow 0.3s linear;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.card h3 {}
+    font-size: 2em;
+}
+
+.picture {
+    margin-bottom: 15px;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.description {
+    margin-top: 15px;
+    padding: 15px 15px 25px;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+}
+
+.features {
+    list-style: none;
+    padding-left: 0;
+}
+
+.features .label {
+    font-weight: bold;
+}
